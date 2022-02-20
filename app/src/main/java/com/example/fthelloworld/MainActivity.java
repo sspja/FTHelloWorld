@@ -2,12 +2,9 @@ package com.example.fthelloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
-import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     public TextView tvMain;
@@ -28,11 +25,5 @@ public class MainActivity extends AppCompatActivity {
             this.tvMain.setText(R.string.hello);
         }
         this.isHelloWorld = !this.isHelloWorld;
-    }
-
-    public void onClickChangeColor(View v) {
-        Random rnd = new Random();
-        int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-        this.tvMain.setTextColor(color);
     }
 }

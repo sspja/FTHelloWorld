@@ -3,5 +3,4 @@
     <string name="hello">Hello World!</string>
     <string name="secondary_text">Secondary text</string>
     <string name="click_me">Click me</string>
-    <string name="change_color">Change color</string>
 </resources>
